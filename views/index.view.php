@@ -18,7 +18,7 @@
 					</ul>
 				</div>
 
-			
+			<?php require'menu.php'    ?>
 
 			<div class="back_image">
 				<div class="image">

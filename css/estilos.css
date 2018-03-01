@@ -9,7 +9,7 @@
 body{
 	font-size: 30;
 	font-family: "Open Sans", sans-serif;
-	background-color: #4D82CD;
+	background-color: #154360 ;
 }
 
 header{
@@ -29,7 +29,7 @@ header{
 
 .titulo{
 	font-size: 20px;
-	background-color: #FFFFFF;
+	background-color: #D5D8DC;
 	overflow: hidden;
 	padding: 31px;
 	float: left;
@@ -43,7 +43,7 @@ header{
 	float:left;
 	width: 20%;
 	padding: 34px;
-	background-color:#FFFFFF;
+	background-color:#D5D8DC;
 	overflow: hidden;
 
 }
@@ -68,31 +68,49 @@ header{
 
 }
 
-.contain-pat{
-	background-color:#000;
+
+.wrap{
+	width: 90%;
+	margin: 100px auto;
+	max-width: 500px;
+
+
+}
+
+form{
+	display:block;
 	width: 100%;
-	display: table;
-	margin: 2%
-	padding:10px;
+	margin: 100px 0;
+	padding: 20px;
+	background: #fff;
+	overflow: hidden;
+	box-shadow: 0 0 3px grey;
+	border-top: 4px solid #5DADE2 ;
 
-	}
-
-.mss{
-	background-color: #fff;
-	width: 31%;
-	height: 300px;
-	float: left;
-	padding: 10px;
-	
 }
 
-.mssd{
-	background-color: #fff;
-	width: 31%;
-	height: 300px;
-	float: left;
-	padding: 10px;
-	
+input{
+	margin-bottom: 20px;
+	width: 100%;
+	font-family: "Open Sans", sans-serif;
 }
 
+
+form textarea{
+	border: 1px solid #1F618D;
+	border-radius: 2px;
+	padding: 20px;
+	width: 100%;
+	display:block;
+	margin-bottom:20px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+}
+
+form textarea{
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 300px;
+	min-height: 150px;
+}
 
